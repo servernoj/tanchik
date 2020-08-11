@@ -1,9 +1,9 @@
 <template lang="pug">
   .page.contact-form
     form.form(
-      name="contact-me",
-      method="POST",
+      name="contact-form",
       data-netlify="true",
+      netlify,
       data-netlify-honeypot="bot-field"
     )
       .field
