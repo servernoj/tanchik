@@ -1,11 +1,16 @@
 <template lang="pug">
   .page.contact-form
     form.form(
+      method="post",
       name="contact-form",
       data-netlify="true",
-      netlify,
       data-netlify-honeypot="bot-field"
     )
+      input(
+        type="hidden",
+        name="form-name",
+        value="contact-form"
+      )
       .field
         label.label Name
         .control
@@ -13,6 +18,14 @@
             type="text",
             name="name",
             placeholder="your name"
+          )
+      .field
+        label.label Company Name
+        .control
+          input.input(
+            type="text",
+            name="company",
+            placeholder="your company"
           )
       .field
         label.label Email
