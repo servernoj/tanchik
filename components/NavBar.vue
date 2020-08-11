@@ -25,10 +25,13 @@
     )
       .navbar-start
       .navbar-end
-        a.navbar-item(
-          href="/Resume Baeva.docx",
-          target="_blank",
-          download="Tatiana_Baeva_(data_analyst)_cv.docx"
+        //- a.navbar-item(
+        //-   href="/Resume Baeva.docx",
+        //-   target="_blank",
+        //-   download="Tatiana_Baeva_(data_analyst)_cv.docx"
+        //- ) CV
+        NuxtLink.navbar-item(
+          to="/CV"
         ) CV
         .navbar-item.has-dropdown.is-hoverable
           a.navbar-link Projects

@@ -1,7 +1,7 @@
 <template lang="pug">
   .component.contact-info.is-hidden-mobile
     .top
-      h3 Data Analyst
+      h4 Data Analyst
     .bottom
       h4 Contact Info
       address
@@ -10,6 +10,10 @@
         a(
           href="mailto:tatiana.v.baeva@gmail.com?subject=Reference from portfolio website",
         ) E-Mail: tatiana.v.baeva at gmail dot com
+        br
+        a(
+          href="https://www.linkedin.com/in/tatiana-baeva/",
+        ) LinkedIn: tatiana-baeva
 </template>
 
 <style lang="scss" scoped>
