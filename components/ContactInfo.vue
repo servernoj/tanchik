@@ -17,6 +17,7 @@
         br
         a(
           href="https://www.linkedin.com/in/tatiana-baeva/",
+          target="_blank"
         )
           fa-icon(:icon="['fab','linkedin']")
           span.ml-3 tatiana-baeva

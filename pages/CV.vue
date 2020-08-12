@@ -10,7 +10,7 @@
         fa-icon(:icon="['fas','download']")
         span.ml-3 Download
     .block.first.is-flex-tablet
-      .label.title
+      .label.heading
         strong Qualifications
         strong.is-hidden-mobile Summary
       .info
@@ -37,13 +37,15 @@
           dt Tools
           dd Tableau, PowerBI, Microsoft Excel, SSRS, Voila, ELK Stack
     .block.is-flex-tablet
-      .label.title
+      .label.heading
         strong Career
         strong.is-hidden-mobile Experience
       .info
-        p
+        p.is-size-7-mobile
           strong Data Analyst,
-          | Mueller Water Products, San Jose, CA (February 2019 – Present)
+          | &nbsp; Mueller Water Products, San Jose, CA
+          br
+          | (February 2019 – Present)
         p.
           Analyzed and maintained the largest site of water leak detection sensors with 6,000 nodes as of June 2020 and an expected 8,000 nodes by 2021. Review and classify daily leak alert data to identify items worthy of field investigation. Build and maintain relations with external leak detection stakeholders. Analyze and prepare leak assessments and system health reports for senior leaders and external customers. Troubleshoot and fix senor errors remotely to ensure proper functionality. Ensured compliance with company standards, contractor requirements, and environmental health and safety (EHS) policies and regulations.
         ul
@@ -67,6 +69,49 @@
             Identified specific areas of projects with issues and recommended solutions and plans for improvement.
           li.
             Successfully monitored and maintained the site, which had increased by more than 150% in only one year.
+        p.is-size-7-mobile
+          strong Web Developer | Database Administrator,
+          | &nbsp; Georgia Southwestern State University, Americus, GA
+          br
+          | (August 2016 – October 2018)
+        p.
+          Maintained and further developed the University website (gsw.edu). Administered the MySQL database.
+        ul
+          li.
+            Improved the site by creating a new visual template and redesigning the content.
+          li.
+            Increased website security and enhanced user experience by upgrading the site core and fixing web dependency issues.
+          li.
+            Recommended and implemented a new site structure that improved site navigation for users.
+          li.
+            Researched and integrated third-party web solutions for faculty, staff, and students.
+          li.
+            Developed web pages and products for various departments and university events.
+          li.
+            Created and supported web forms for users to register and pay for events.
+    .block.is-flex-tablet
+      .label.heading
+        strong Education
+      .info
+        p.is-size-7-mobile
+          strong Master of Science in Computer Science,
+          | &nbsp; 2015
+          br
+          | Georgia Southwestern State University, Americus, GA
+        p.is-size-7-mobile
+          strong Master of Science in Fine Arts,
+          | &nbsp; 2007
+          br
+          | South Ural State University, Chelyabinsk, Russia
+    .block.is-flex-tablet
+      .label.heading
+        strong Professional Training
+      .info
+        ul
+          li.
+            Graduate Certificate in Data Management and Analytics, Kennesaw State University, 2018
+          li.
+            Tableau Desktop Specialist, 2018
 
 </template>
 
@@ -110,7 +155,7 @@ export default {
         }
       }
       .label {
-        flex-basis: 150px;
+        flex-basis: 180px;
         display: flex;
         flex-direction: column;
       }
