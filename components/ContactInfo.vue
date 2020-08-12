@@ -5,15 +5,21 @@
     .bottom
       h4 Contact Info
       address
-        a(href="tel:6692549436") Tel: (669) 254-9436
+        a(href="tel:6692549436")
+          fa-icon(:icon="['fas','phone']")
+          span.ml-3 (669) 254-9436
         br
         a(
           href="mailto:tatiana.v.baeva@gmail.com?subject=Reference from portfolio website",
-        ) E-Mail: tatiana.v.baeva at gmail dot com
+        )
+          fa-icon(:icon="['far','envelope']")
+          span.ml-3 tatiana.v.baeva at gmail dot com
         br
         a(
           href="https://www.linkedin.com/in/tatiana-baeva/",
-        ) LinkedIn: tatiana-baeva
+        )
+          fa-icon(:icon="['fab','linkedin']")
+          span.ml-3 tatiana-baeva
 </template>
 
 <style lang="scss" scoped>

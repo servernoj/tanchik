@@ -7,12 +7,12 @@
       NuxtLink.navbar-item.name(
         to="/"
       )
-        h2.text Tatiana Baeva
+        h2.is-size-5.has-text-grey-dark.is-family-secondary Tatiana Baeva
       a.navbar-burger(
         role="button",
         aria-label="menu",
         :aria-expanded="isActive",
-        :class="{'is-active': isActive}"
+        :class="{'is-active': isActive}",
         @click="toggle"
       )
         span(aria-hidden="true")
@@ -25,11 +25,6 @@
     )
       .navbar-start
       .navbar-end
-        //- a.navbar-item(
-        //-   href="/Resume Baeva.docx",
-        //-   target="_blank",
-        //-   download="Tatiana_Baeva_(data_analyst)_cv.docx"
-        //- ) CV
         NuxtLink.navbar-item(
           to="/CV"
         ) CV
@@ -51,7 +46,6 @@
         NuxtLink.navbar-item(
           to="/About"
         ) About
-
 </template>
 
 <script>
@@ -76,7 +70,7 @@ export default {
       padding: 0 1rem;
       .text {
         font-size: 1.5rem;
-        font-weight: bold;
+        font-weight: 300;
       }
     }
   }

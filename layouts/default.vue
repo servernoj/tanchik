@@ -3,7 +3,7 @@
     NavBar
     .content
       ContactInfo
-      Nuxt
+      Nuxt.view
 </template>
 
 <script>
@@ -37,22 +37,31 @@ export default {
     box-sizing: border-box;
     margin: 0;
   }
-  .page {
-    margin: 0;
-    width: 100%;
-    padding: 1rem;
+  html,
+  body,
+  #__nuxt,
+  #__layout {
+    height: 100%
   }
   .component {
     display: flex;
     flex-direction: column;
   }
   .screen {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
-  }
-  .content {
-    flex: 1 1 0;
-    display: flex;
+    .content {
+      flex: 1 1 0;
+      display: flex;
+      overflow-y: hidden;
+      .view {
+        height: 100%;
+        overflow-y: auto;
+        margin: 0;
+        width: 100%;
+        padding: 1rem;
+      }
+    }
   }
 </style>
