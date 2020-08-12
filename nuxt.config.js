@@ -46,7 +46,18 @@ export default {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    [
+      '@nuxtjs/fontawesome', {
+        component: 'fa',
+        suffix: true,
+        icons: {
+          solid: ['faDownload', 'faPhone'],
+          regular: ['faEnvelope'],
+          brands: ['faLinkedin']
+        }
+      }
+    ]
   ],
   /*
   ** Nuxt.js modules

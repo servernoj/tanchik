@@ -16,7 +16,7 @@
       .info
         p.
           Data Analyst with substantial industry experience. Proven ability in analyzing and managing data to support operational goals. Conducts historical research on large data sets to identify data trends and issues. Skilled in mining data and building data models with Python. Designs dashboards, reports, and tools to improve work flows and process efficiency. Knowledgeable in database administration of SQL and MySQL databases.
-        h3.heading Core Competencies
+        p.heading Core Competencies
         ul
           li Data Analysis and Reporting
           li Data Modeling and Visualization
@@ -28,7 +28,7 @@
           li Extract, Transform, and Load (ETL)
           li Process Automation and Improvement
           li Data Solutions
-        h3.heading Technical Proficiencies
+        p.heading Technical Proficiencies
         dl
           dt DBMS
           dd SQL Server, MySQL, MongoDB
