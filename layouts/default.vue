@@ -1,9 +1,10 @@
 <template lang="pug">
   .screen
     NavBar
-    .content
+    .main
       ContactInfo
-      Nuxt.view
+      .content
+        Nuxt
 </template>
 
 <script>
@@ -51,11 +52,11 @@ export default {
     height: 100%;
     display: flex;
     flex-direction: column;
-    .content {
+    .main {
       flex: 1 1 0;
       display: flex;
       overflow-y: hidden;
-      .view {
+      .content {
         height: 100%;
         overflow-y: auto;
         margin: 0;

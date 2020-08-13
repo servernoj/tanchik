@@ -41,7 +41,7 @@
           textarea.textarea(
             name="message",
             placeholder="type in your message",
-            rows="10"
+            rows="7"
           )
       .buttons
         .buttons__left
