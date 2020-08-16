@@ -25,7 +25,16 @@ export default {
         hid: 'description',
         name: 'description',
         content: 'Portfolio website representing Tatiana Baeva\'s skills, and experience'
-      }
+      },
+      { name: 'og:title', content: 'Tatiana Baeva, data analyst for hire' },
+      { name: 'og:description', content: 'Portfolio website representing Tatiana Baeva\'s skills, and experience' },
+      { name: 'og:url', content: 'https://tatiana.baeva.work' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:image', content: 'https://lh3.googleusercontent.com/pw/ACtC-3cXLOqFTAF5fDl2o5U5gHGUxZ5rIxarSmFOtFNBzPeIYrq0TPCR7qrSXy_K9zhAgfwCvxVOKJVbzO4iVgKAqposwnlwOFr5aVHeGKxJmWs8lrO-1L0xLHOmEh_MRFcvSu7KAD9r6Yc2ASb7Y5I7RRdEuQ=s362-no' },
+      { name: 'twitter:image', content: 'https://lh3.googleusercontent.com/pw/ACtC-3cXLOqFTAF5fDl2o5U5gHGUxZ5rIxarSmFOtFNBzPeIYrq0TPCR7qrSXy_K9zhAgfwCvxVOKJVbzO4iVgKAqposwnlwOFr5aVHeGKxJmWs8lrO-1L0xLHOmEh_MRFcvSu7KAD9r6Yc2ASb7Y5I7RRdEuQ=s362-no' },
+      { name: 'twitter:title', content: 'Tatiana Baeva, data analyst for hire' },
+      { name: 'twitter:description', content: 'Portfolio website representing Tatiana Baeva\'s skills, and experience' },
+      { name: 'twitter:card', content: 'summary' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
