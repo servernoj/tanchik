@@ -119,7 +119,18 @@
 
 <script>
 export default {
-  // layout: 'no-contact-info'
+  head () {
+    return {
+      title: 'CV',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Curriculum vitae presents Tatiana Baeva\'s technical skills, qualifications, professional experience, and education'
+        }
+      ]
+    }
+  }
 }
 </script>
 
@@ -157,7 +168,7 @@ export default {
           max-width: 100%;
           flex-direction: column;
           flex-wrap: wrap;
-          @media screen and (min-width: 800px) {
+          @media screen and (min-width: 1200px) {
             max-height: 150px;
           }
         }

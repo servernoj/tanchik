@@ -15,11 +15,17 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Tatiana Baeva\'s Portfolio',
+    title: 'Data analyst for hire',
+    titleTemplate: 'Tatiana Baeva, %s',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { name: 'robots', content: 'index, follow' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Portfolio website representing Tatiana Baeva\'s skills, and experience'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -56,6 +62,11 @@ export default {
           regular: ['faEnvelope'],
           brands: ['faLinkedin']
         }
+      }
+    ],
+    [
+      '@nuxtjs/google-analytics', {
+        id: 'UA-175534268-1'
       }
     ]
   ],

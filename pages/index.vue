@@ -6,18 +6,9 @@
 <script>
 export default {
   data () {
-    return {
-      structuredData: {
-        '@context': 'http://schema.org',
-        '@type': 'Person',
-        email: 'tatiana.v.baeva@gmail.com',
-        jobTitle: 'Data Analyst'
-      }
-    }
   },
   head () {
     return {
-      script: [{ type: 'application/ld+json', json: this.structuredData }]
     }
   }
 }
