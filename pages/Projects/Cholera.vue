@@ -9,7 +9,7 @@
         allowtransparency="true",
         allowfullscreen,
         data-v-41b90765,
-        :src="`http://public.tableau.com/views/Cholera_world_stat/Dashboard?${query}`"
+        :src="`https://public.tableau.com/views/Cholera_world_stat/Dashboard?${query}`"
       )
 </template>
 
