@@ -32,8 +32,8 @@
           a.navbar-link Projects
           .navbar-dropdown
             NuxtLink.navbar-item(
-              to="/Projects/A"
-            ) A
+              to="/Projects/Cholera"
+            ) Cholera cases in the World
             NuxtLink.navbar-item(
               to="/Projects/B"
             ) B
