@@ -84,8 +84,13 @@ export default {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://baeva.work',
+    gzip: true
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/

@@ -35,11 +35,11 @@
               to="/Projects/Cholera"
             ) Cholera cases in the World
             NuxtLink.navbar-item(
+              to="/Projects/A"
+            ) A
+            NuxtLink.navbar-item(
               to="/Projects/B"
             ) B
-            NuxtLink.navbar-item(
-              to="/Projects/C"
-            ) C
         NuxtLink.navbar-item(
           to="/ContactForm"
         ) Contact form

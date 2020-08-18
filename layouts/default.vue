@@ -44,10 +44,6 @@ export default {
   #__layout {
     height: 100%
   }
-  .component {
-    display: flex;
-    flex-direction: column;
-  }
   .screen {
     height: 100%;
     display: flex;

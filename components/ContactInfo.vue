@@ -1,5 +1,5 @@
 <template lang="pug">
-  .component.contact-info.is-hidden-mobile
+  .contact-info.is-hidden-mobile
     .top
       h4 Data Analyst
     .bottom
@@ -28,6 +28,8 @@
     min-width: max-content;
     padding: 1rem;
     border-right: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
   }
 </style>
