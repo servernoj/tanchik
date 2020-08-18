@@ -1,25 +1,16 @@
 <template lang="pug">
   .page
     | Index page
+    span.red &nbsp; booo
 </template>
 
 <script>
 export default {
-  data () {
-  },
-  head () {
-    return {
-    }
-  }
 }
 </script>
 
 <style lang="scss" scoped>
-  .tableauViz {
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: none;
-    width: 100%;
+  .red {
+    color: red
   }
 </style>

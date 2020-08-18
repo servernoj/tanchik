@@ -28,6 +28,6 @@
     min-width: max-content;
     padding: 1rem;
     border-right: 1px solid #eee;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 </style>
