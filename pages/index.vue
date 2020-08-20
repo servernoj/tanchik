@@ -11,6 +11,6 @@ export default {
 
 <style lang="scss" scoped>
   .red {
-    color: red
+    color: blue
   }
 </style>
