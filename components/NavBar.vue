@@ -35,11 +35,11 @@
               to="/Projects/Cholera"
             ) Cholera cases in the World
             NuxtLink.navbar-item(
-              to="/Projects/A"
-            ) A
+              to="/Projects/Suicide"
+            ) Suicide cases in the World
             NuxtLink.navbar-item(
-              to="/Projects/B"
-            ) B
+              to="/Projects/Elasticsearch"
+            ) Classifier with Elasticsearch
         NuxtLink.navbar-item(
           to="/ContactForm"
         ) Contact form

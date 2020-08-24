@@ -1,4 +1,4 @@
 <template lang="pug">
   .page
-    h1 Project A
+    h1 Classifier with Elasticsearch
 </template>

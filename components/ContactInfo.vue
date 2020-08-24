@@ -13,7 +13,7 @@
           href="mailto:tatiana.v.baeva@gmail.com?subject=Reference from portfolio website",
         )
           fa-icon(:icon="['far','envelope']")
-          span.ml-3 tatiana.v.baeva at gmail dot com
+          span.ml-3 tatiana.v.baeva@gmail.com
         br
         a(
           href="https://www.linkedin.com/in/tatiana-baeva/",
