@@ -21,13 +21,13 @@
       | The next dashboard compares GDP and suicide rate. 79% of suicide occur is low and middle income countries and one can see that for such countries suicide rate decreases if GDP grows (some examples include Russia, Slovenia, Kazahstan, Sri Lanka, etc). For developed countries such as United States, Netherlands, Korea suicide rate increases with growth of GDP. I personally was surprised to see that countries with high GDP have an increasing trend of suicide rate, which could be explained that there are many factors and their combination that can affect a person decision about suicide and not always financial stability can guarantee a happy life.
     p
       | The last dashboard shows overall suicide trend by age along with generation distribution. We can see that in 1990 there was an increase in number of suicide by all age groups (except 5-14) and for most of them it stayed stable until 2015. The top age group 35-54 started to show a decrease in suicide number since 2009. The original dataset included six-generation groups: G.I. Generation, Silent, Boomers, Generation X, Millennials and Generation Z. The last chart on this dashboard shows generation distribution by age groups. Since it was already discovered that the top groups by suicide number consist of people age 35-54 and 55-74 we can see that these groups mostly consist of Boomers and Silent generations. There are studies that show how changes in economy affect these generations and such data can be used in suicide prevention among these groups. It’s also interesting to note that Boomers generation had a high suicide rate when they were younger and some researchers suggest that when boomers have troubles today they react in familiar way.
-    ul
-      li
-        |
-        a(href="https://www.who.int/news-room/fact-sheets/detail/suicide") Suicide article
-      li
-        |
-        a(href="https://ourworldindata.org/suicide") Suicide article 2
+    //- ul
+    //-   li
+    //-     |
+    //-     a(href="https://www.who.int/news-room/fact-sheets/detail/suicide", target="_blank") Suicide article
+    //-   li
+    //-     |
+    //-     a(href="https://ourworldindata.org/suicide", target="_blank") Suicide article 2
 </template>
 
 <script>
@@ -59,7 +59,7 @@ export default {
     .iframe-wrapper {
       width: calc(100% - 48px);
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 2rem;
       iframe {
         display: block;
         width: 1020px;
